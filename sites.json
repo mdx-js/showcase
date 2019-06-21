@@ -9,6 +9,30 @@
     "categories": [
       "design-system"
     ]
+  },
+  {
+    "id": "nextjs",
+    "title": "Next.js",
+    "url": "https://nextjs.org",
+    "secondaryUrl": "https://nextjs.org",
+    "repoUrl": "https://github.com/zeit/next-site",
+    "featured": true,
+    "categories": [
+      "docs",
+      "blog"
+    ]
+  },
+  {
+    "id": "zeit",
+    "title": "ZEIT Docs",
+    "url": "https://zeit.co",
+    "secondaryUrl": "https://zeit.co/docs",
+    "repoUrl": "https://github.com/zeit/docs",
+    "featured": false,
+    "categories": [
+      "docs",
+      "blog"
+    ]
   }
 ]
 

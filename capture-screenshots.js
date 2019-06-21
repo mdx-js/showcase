@@ -4,7 +4,8 @@ const sites = require('./sites.json')
 
 const options = {
   width: 1920,
-  height: 1000
+  height: 1000,
+  overwrite: true
 }
 
 const urls = sites.reduce((acc, site) => {
