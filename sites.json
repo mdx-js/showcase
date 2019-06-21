@@ -1,0 +1,14 @@
+[
+  {
+    "id": "primer",
+    "title": "GitHub Primer",
+    "url": "https://primer.style",
+    "secondaryUrl": "https://primer.style/components",
+    "repoUrl": "https://github.com/primer/primer.style",
+    "featured": true,
+    "categories": [
+      "design-system"
+    ]
+  }
+]
+
