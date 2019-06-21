@@ -33,6 +33,111 @@
       "docs",
       "blog"
     ]
+  },
+  {
+    "id": "thumbprint",
+    "title": "Thumbprint",
+    "url": "https://thumbprint.design",
+    "secondaryUrl": "https://thumbprint.design/components/overview/",
+    "repoUrl": "https://github.com/thumbtack/thumbprint",
+    "featured": false,
+    "categories": [
+      "design-system"
+    ]
+  },
+  {
+    "id": "carbon",
+    "title": "Carbon Design System",
+    "url": "https://www.carbondesignsystem.com",
+    "secondaryUrl": "https://www.carbondesignsystem.com/getting-started/about-carbon",
+    "repoUrl": "https://github.com/carbon-design-system/carbon-website",
+    "featured": false,
+    "categories": [
+      "design-system"
+    ]
+  },
+  {
+    "id": "joelhooks",
+    "title": "Joel Hooks digital garden",
+    "url": "https://joelhooks.com",
+    "secondaryUrl": "https://joelhooks.com/dSLR-webcam-for-live-streaming",
+    "repoUrl": "https://github.com/joelhooks/joelhooks-com",
+    "featured": false,
+    "categories": [
+      "blog",
+      "digital-garden"
+    ]
+  },
+  {
+    "id": "howtoegghead",
+    "title": "How to egghead",
+    "url": "https://howtoegghead.com",
+    "secondaryUrl": "https://howtoegghead.com/review",
+    "repoUrl": "https://github.com/eggheadio/how-to-egghead",
+    "featured": false,
+    "categories": [
+      "docs"
+    ]
+  },
+  {
+    "id": "sproutsocial",
+    "title": "Sprout Social - Seeds Design System",
+    "url": "https://sproutsocial.com/seeds",
+    "secondaryUrl": "https://sproutsocial.com/seeds/visual/color",
+    "featured": false,
+    "categories": [
+      "design-system"
+    ]
+  },
+  {
+    "id": "",
+    "title": "",
+    "url": "",
+    "secondaryUrl": "",
+    "repoUrl": "",
+    "featured": false,
+    "categories": [
+    ]
+  },
+  {
+    "id": "",
+    "title": "",
+    "url": "",
+    "secondaryUrl": "",
+    "repoUrl": "",
+    "featured": false,
+    "categories": [
+    ]
+  },
+  {
+    "id": "",
+    "title": "",
+    "url": "",
+    "secondaryUrl": "",
+    "repoUrl": "",
+    "featured": false,
+    "categories": [
+    ]
+  },
+  {
+    "id": "",
+    "title": "",
+    "url": "",
+    "secondaryUrl": "",
+    "repoUrl": "",
+    "featured": false,
+    "categories": [
+    ]
+  },
+  {
+    "id": "",
+    "title": "",
+    "url": "",
+    "secondaryUrl": "",
+    "repoUrl": "",
+    "featured": false,
+    "categories": [
+    ]
   }
 ]
 

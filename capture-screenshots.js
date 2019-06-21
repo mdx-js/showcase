@@ -8,12 +8,14 @@ const options = {
   overwrite: true
 }
 
-const urls = sites.reduce((acc, site) => {
-  return acc.concat([
-    [site.url, site.id],
-    [site.secondaryUrl, `${site.id}-2`]
-  ])
-}, [])
+const urls = sites
+  .filter(site => site.id)
+  .reduce((acc, site) => {
+    return acc.concat([
+      [site.url, site.id],
+      [site.secondaryUrl, `${site.id}-2`]
+    ])
+  }, [])
 
 Promise.all(urls.map(([url, filename]) => {
   return captureWebsite.file(url, `images/${filename}.png`, options)
