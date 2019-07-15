@@ -90,53 +90,71 @@
     ]
   },
   {
-    "id": "",
-    "title": "",
-    "url": "",
-    "secondaryUrl": "",
-    "repoUrl": "",
+    "id": "aravindballa",
+    "title": "Aravind Balla",
+    "url": "https://aravindballa.com",
+    "secondaryUrl": "https://aravindballa.com/writings/non-blocking-ui-react/",
+    "repoUrl": "https://github.com/aravindballa/website2017",
     "featured": false,
     "categories": [
+      "blog",
+      "portfolio"
     ]
   },
   {
-    "id": "",
-    "title": "",
-    "url": "",
-    "secondaryUrl": "",
-    "repoUrl": "",
+    "id": "postgraphile",
+    "title": "PostGraphile",
+    "url": "https://www.graphile.org/postgraphile",
+    "secondaryUrl": "https://www.graphile.org/postgraphile/introduction/",
+    "repoUrl": "https://github.com/graphile/graphile.github.io",
     "featured": false,
     "categories": [
+      "docs"
     ]
   },
   {
-    "id": "",
-    "title": "",
-    "url": "",
-    "secondaryUrl": "",
-    "repoUrl": "",
+    "id": "prestonrichey",
+    "title": "Preston Richey",
+    "url": "https://prestonrichey.com",
+    "secondaryUrl": "https://prestonrichey.com/blog",
+    "repoUrl": "https://github.com/prichey/prestonrichey.com",
     "featured": false,
     "categories": [
+      "blog",
+      "portfolio"
     ]
   },
   {
-    "id": "",
-    "title": "",
-    "url": "",
-    "secondaryUrl": "",
+    "id": "nord",
+    "title": "Nord",
+    "url": "https://www.nordtheme.com",
+    "secondaryUrl": "https://www.nordtheme.com/docs/colors-and-palettes",
     "repoUrl": "",
     "featured": false,
     "categories": [
+      "docs"
     ]
   },
   {
-    "id": "",
-    "title": "",
-    "url": "",
-    "secondaryUrl": "",
-    "repoUrl": "",
+    "id": "iamstarkov",
+    "title": "Vladimir Starkov",
+    "url": "https://iamstarkov.com",
+    "secondaryUrl": "https://iamstarkov.com/conditional-includes/",
+    "repoUrl": "https://github.com/iamstarkov/iamstarkov.com",
     "featured": false,
     "categories": [
+      "blog"
+    ]
+  },
+  {
+    "id": "nut",
+    "title": "NUT",
+    "url": "https://nut.js.org",
+    "secondaryUrl": "https://nut.js.org/pages/guide/introduction",
+    "repoUrl": "https://github.com/nut-project/nut",
+    "featured": false,
+    "categories": [
+      "docs"
     ]
   }
 ]
