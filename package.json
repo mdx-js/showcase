@@ -2,7 +2,8 @@
   "private": true,
   "name": "showcase",
   "dependencies": {
-    "capture-website": "0.4.0"
+    "capture-website": "0.4.0",
+    "p-limit": "^2.2.0"
   },
   "scripts": {
     "build": "yarn screenshots",

@@ -1,4 +1,7 @@
 const captureWebsite = require('capture-website')
+const pLimit = require('p-limit')
+
+const limit = pLimit(1)
 
 const sites = require('./sites.json')
 
@@ -17,7 +20,16 @@ const urls = sites
     ])
   }, [])
 
-Promise.all(urls.map(([url, filename]) => {
-  return captureWebsite.file(url, `images/${filename}.png`, options)
-}))
+const captures = urls.map(([url, filename]) => {
+  return limit(async () => {
+    console.log(`Capturing ${url}`)
+    await captureWebsite.file(url, `images/${filename}.png`, options)
+    console.log(`  ${url} written to ${filename}`)
+  })
+})
 
+;(async () => {
+  console.log('Beginning screenshots')
+  await Promise.all(captures)
+  console.log('Finished screenshots')
+})
