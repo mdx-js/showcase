@@ -156,6 +156,18 @@
     "categories": [
       "docs"
     ]
+  },
+  {
+    "id": "gatsby",
+    "title": "Gatsby",
+    "url": "https://gatsbyjs.org",
+    "secondaryUrl": "https://www.gatsbyjs.org/docs/",
+    "repoUrl": "https://github.com/gatsbyjs/gatsby",
+    "featured": true,
+    "categories": [
+      "docs",
+      "blog"
+    ]
   }
 ]
 
