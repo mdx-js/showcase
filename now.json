@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "mdx",
+  "alias": ["showcase.mdxjs.com"],
+  "public": true,
+  "builds": [
+    {
+      "src": "images/**",
+      "use": "@now/static"
+    },
+    {
+      "src": "sites.json",
+      "use": "@now/static"
+    }
+  ]
+}
