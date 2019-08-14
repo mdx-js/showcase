@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           version: 12
-      - name: Capture screenshots and commit them
+      - name: Capture screenshots and commit
         env:
           GITHUB_API_TOKEN: ${{secrets.GITHUB_API_TOKEN}}
         run: |
@@ -26,4 +26,4 @@ jobs:
           git config --global user.name "Johno Bot"
           git add .
           git commit -m "Captured latest screenshots"
-          git push origin master
+          git push
