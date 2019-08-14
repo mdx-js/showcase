@@ -22,9 +22,13 @@ const urls = sites
 
 const captures = urls.map(([url, filename]) => {
   return limit(async () => {
-    console.log(`Capturing ${url}`)
-    await captureWebsite.file(url, `images/${filename}.png`, options)
-    console.log(`  ${url} written to ${filename}`)
+    try {
+      console.log(`Capturing ${url}`)
+      await captureWebsite.file(url, `images/${filename}.png`, options)
+      console.log(`  ${url} written to ${filename}`)
+    } catch (e) {
+      console.log(`Failed capturing ${url}`)
+    }
   })
 })
 
