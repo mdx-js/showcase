@@ -168,17 +168,6 @@
       "docs",
       "blog"
     ]
-  },
-  {
-    "id": "johno",
-    "title": "johno",
-    "url": "https://johno.com",
-    "secondaryUrl": "https://johno.com/txt",
-    "repoUrl": "https://github.com/johno/_",
-    "featured": false,
-    "categories": [
-      "blog"
-    ]
   }
 ]
 
