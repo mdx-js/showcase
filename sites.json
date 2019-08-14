@@ -113,18 +113,6 @@
     ]
   },
   {
-    "id": "prestonrichey",
-    "title": "Preston Richey",
-    "url": "https://prestonrichey.com",
-    "secondaryUrl": "https://prestonrichey.com/blog",
-    "repoUrl": "https://github.com/prichey/prestonrichey.com",
-    "featured": false,
-    "categories": [
-      "blog",
-      "portfolio"
-    ]
-  },
-  {
     "id": "nord",
     "title": "Nord",
     "url": "https://www.nordtheme.com",
