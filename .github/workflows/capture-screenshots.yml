@@ -1,0 +1,23 @@
+name: Capture screenshots
+
+on:
+  pull_request:
+    branches:
+    - master
+  schedule:
+  - cron: 0 2 * * 1-5
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          version: 12
+      - run: |
+          yarn
+          yarn build
+          git add .
+          git commit -m "Scheduled build"
+          git push origin master
