@@ -18,6 +18,8 @@ jobs:
       - run: |
           yarn
           yarn build
+          git config --global user.email "johnotander+bot@gmail.com"
+          git config --global user.name "Johno Bot"
           git add .
           git commit -m "Scheduled build"
           git push origin master
