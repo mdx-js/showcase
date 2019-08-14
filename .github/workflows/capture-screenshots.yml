@@ -15,11 +15,15 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           version: 12
-      - run: |
+      - name: Capture screenshots and commit them
+        env:
+          GITHUB_API_TOKEN: ${{secrets.GITHUB_API_TOKEN}}
+        run: |
           yarn
           yarn build
+          git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/mdx-js/showcase.git
           git config --global user.email "johnotander+bot@gmail.com"
           git config --global user.name "Johno Bot"
           git add .
-          git commit -m "Scheduled build"
+          git commit -m "Captured latest screenshots"
           git push origin master
