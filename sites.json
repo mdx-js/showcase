@@ -23,10 +23,10 @@
     ]
   },
   {
-    "id": "zeit",
-    "title": "ZEIT Docs",
-    "url": "https://zeit.co",
-    "secondaryUrl": "https://zeit.co/docs",
+    "id": "vercel",
+    "title": "Vercel Docs",
+    "url": "https://vercel.com",
+    "secondaryUrl": "https://vercel.com/docs",
     "repoUrl": "https://github.com/zeit/docs",
     "featured": false,
     "categories": [
@@ -158,4 +158,3 @@
     ]
   }
 ]
-
