@@ -2,7 +2,7 @@
   "private": true,
   "name": "showcase",
   "dependencies": {
-    "capture-website": "0.4.0",
+    "capture-website": "1.0.0",
     "p-limit": "2.2.1"
   },
   "scripts": {
