@@ -156,5 +156,15 @@
       "docs",
       "blog"
     ]
+  },
+  {
+    "id": "reactspectrum",
+    "title": "Adobe's React Spectrum",
+    "url": "https://react-spectrum.adobe.com/react-spectrum/index.html",
+    "repoUrl": "https://github.com/adobe/react-spectrum",
+    "featured": false,
+    "categories": [
+      "docs"
+    ]
   }
 ]
