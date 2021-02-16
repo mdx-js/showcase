@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.5.tgz#96ec3b0afafd64a4ccea9107b75bf8489f0e5765"
   integrity sha512-3ySmiBYJPqgjiHA7oEaIo2Rzz0HrOZ7yrNO5HWyaE5q0lQ3BppDZ3N53Miz8bw2I7gh1/zir2MGVZBvpb1zq9g==
 
-"@types/puppeteer@^3.0.2":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@types/puppeteer/-/puppeteer-3.0.5.tgz#5ef5d023f45c0dfcc82e97548891b11b6ce868fb"
-  integrity sha512-NkphUMkpbr/us6hp1AqUh/UxX5Tf2UJU94MvaF8OOgIUPBipYodql+yRjcysJKqwnDkchp+cD/8jntI/C9StzA==
+"@types/puppeteer@^5.4.3":
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/@types/puppeteer/-/puppeteer-5.4.3.tgz#cdca84aa7751d77448d8a477dbfa0af1f11485f2"
+  integrity sha512-3nE8YgR9DIsgttLW+eJf6mnXxq8Ge+27m5SU3knWmrlfl6+KOG0Bf9f7Ua7K+C4BnaTMAh3/UpySqdAYvrsvjg==
   dependencies:
     "@types/node" "*"
 
@@ -66,12 +66,12 @@ buffer@^5.2.1, buffer@^5.5.0:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
 
-capture-website@1.2.7:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/capture-website/-/capture-website-1.2.7.tgz#a9003490d5c7dcd6e6644fd6d6ec3a281174bb2a"
-  integrity sha512-85Q/ZhahzxqjuQTf0VHYkArafNt+8Mi3sWDGSZjLfuPfbUu+mSEFW+FDwlQMVrgNyVGCzHwJjvxWJSkQNDYNNA==
+capture-website@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/capture-website/-/capture-website-1.4.0.tgz#952da9a1e1f9ef658b0157482d393e4427206f0a"
+  integrity sha512-VhU0e0u5NVug53O208ISQPTbr0NW9zPNw3YjGNTHiwY3e/iVRjI6AWdfbRGtHtRkSt4Y8q+6sbB92OsB7uzGmw==
   dependencies:
-    "@types/puppeteer" "^3.0.2"
+    "@types/puppeteer" "^5.4.3"
     file-url "^3.0.0"
     puppeteer "^5.3.1"
     tough-cookie "^4.0.0"
