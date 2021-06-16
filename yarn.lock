@@ -61,10 +61,10 @@ buffer@^5.2.1, buffer@^5.5.0:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
 
-capture-website@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/capture-website/-/capture-website-2.0.0.tgz#d3331c6d0c6ce254dd574c143c4ba8925f5cd19a"
-  integrity sha512-X2mUXeBK2nLytsbd91od5XJKzvQEsE0CIJMrynvB3MIE10DSsBCULYYg7SF8dvvG9B2UagDEcpbOVl6CBbHVtQ==
+capture-website@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/capture-website/-/capture-website-2.0.2.tgz#4a99a4901fe9540fa780914546ea350008964e02"
+  integrity sha512-YobfhMw4y87R/k/X7uhAdT/zTQXgC4mV9XwdjhcC+g3cI4KZ2WRF2PZS5ZjOQXpqPc99xxA41dbeGi4Z3LwSrA==
   dependencies:
     file-url "^4.0.0"
     puppeteer "^9.1.1"
