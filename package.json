@@ -3,7 +3,7 @@
   "name": "showcase",
   "dependencies": {
     "capture-website": "2.3.0",
-    "p-limit": "4.0.0"
+    "p-limit": "5.0.0"
   },
   "scripts": {
     "build": "yarn screenshots",
